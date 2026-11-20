@@ -1,6 +1,7 @@
 import React from "react";
 import Skin3D from "./playerSkin.jsx";
 import ModCard from "./modCard.jsx";
+import rfToolsLogo from "../assets/imgs/mods-logo/rftools.jpg";
 export default function PlayerCard(nikName, name, skinUrl) {
   return (
     <div
@@ -19,7 +20,7 @@ export default function PlayerCard(nikName, name, skinUrl) {
         <ul className="list-disc list-inside">
           <ModCard
             modName="RF Tools"
-            modlogoUrl="..\src\assets\imgs\mods-logo\rftools.jpg"
+            modlogoUrl={rfToolsLogo}
             modLink=""
           />
         </ul>

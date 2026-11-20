@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router";
 import "./App.css";
 import Header from "./components/Header.jsx";
 import playerCard from "./components/playerCard.jsx";
+import playerSkinImage from "./assets/imgs/skins/0f71df3f2c33584b.png";
 function App() {
   return (
     <>
@@ -15,7 +16,7 @@ function App() {
           element={playerCard(
             "SolApollo_21",
             "Carlos Eduardo",
-            "../src/assets/imgs/skins/0f71df3f2c33584b.png",
+            playerSkinImage,
           )}
         />
         <Route path="/contact" element={<h1>Contact Page</h1>} />
