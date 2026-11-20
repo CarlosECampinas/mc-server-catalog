@@ -1,19 +1,23 @@
 import { useState } from "react";
-import { Link, Route, Routes } from "react-router";
+import { Route, Routes } from "react-router";
 import "./App.css";
-
+import Header from "./components/Header.jsx";
+import playerCard from "./components/playerCard.jsx";
 function App() {
   return (
     <>
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/contact">Contact</Link>
-      </nav>
+      <Header />
 
       <Routes>
         <Route path="/" element={<h1>Home Page</h1>} />
-        <Route path="/about" element={<h1>About Page</h1>} />
+        <Route
+          path="/player"
+          element={playerCard(
+            "SolApollo_21",
+            "Carlos Eduardo",
+            "../src/assets/imgs/skins/0f71df3f2c33584b.png",
+          )}
+        />
         <Route path="/contact" element={<h1>Contact Page</h1>} />
       </Routes>
     </>
