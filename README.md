@@ -2,15 +2,15 @@
 
 ## Desenvolvimento com Docker
 
-Requer Docker Desktop com Docker Compose. Na pasta do projeto, inicie o servidor de desenvolvimento:
+Requer Docker Desktop com Docker Compose 2.23 ou superior. Na pasta do projeto, inicie o servidor de desenvolvimento com observação dos arquivos:
 
 ```bash
-docker compose up --build
+docker compose up --build --watch
 ```
 
-Abra [http://localhost:5173](http://localhost:5173). O código-fonte fica montado no container e o Vite atualiza a página quando os arquivos mudam.
+Abra [http://localhost:5173](http://localhost:5173). Alterações em `src`, `public` e `index.html` são sincronizadas com o container e recarregadas pelo Vite. Alterações em `package.json` ou `package-lock.json` reiniciam o serviço e instalam as dependências atualizadas.
 
-Para encerrar, use `Ctrl+C`. Para iniciar em segundo plano, rode `docker compose up --build -d`; para parar nesse modo, use `docker compose down`.
+Para encerrar, use `Ctrl+C`. Para iniciar em segundo plano mantendo a observação de arquivos, rode `docker compose up --build --watch -d`; para parar nesse modo, use `docker compose down`.
 
 ## Desenvolvimento local (opcional)
 
