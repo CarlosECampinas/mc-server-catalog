@@ -1,16 +1,22 @@
-# React + Vite
+# Minecraft Server Catalog
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Desenvolvimento com Docker
 
-Currently, two official plugins are available:
+Requer Docker Desktop com Docker Compose. Na pasta do projeto, inicie o servidor de desenvolvimento:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```bash
+docker compose up --build
+```
 
-## React Compiler
+Abra [http://localhost:5173](http://localhost:5173). O código-fonte fica montado no container e o Vite atualiza a página quando os arquivos mudam.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Para encerrar, use `Ctrl+C`. Para iniciar em segundo plano, rode `docker compose up --build -d`; para parar nesse modo, use `docker compose down`.
 
-## Expanding the Oxlint configuration
+## Desenvolvimento local (opcional)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```bash
+npm install
+npm run dev
+```
+
+Outros comandos disponíveis: `npm run build` para gerar a versão de produção e `npm run lint` para verificar o código.
