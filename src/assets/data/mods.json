@@ -1,0 +1,29 @@
+{
+  "mods": [
+    {
+      "id": "RF_Tools",
+      "name": "RF Tools",
+      "version": "6.0.11",
+      "modLogoUrl": "/imgs/mods-logo/rftools.jpg",
+      "dependencies": null,
+      "addons": [null]
+    },
+    {
+      "id": "Iron_Spells",
+      "name": "Iron's Spells 'n Spellbooks",
+      "version": "3.16.4",
+      "modLogoUrl": "https://media.forgecdn.net/avatars/thumbnails/871/265/64/64/638288661913483053.png",
+      "dependencies": null,
+      "addons": [null]
+    },
+    {
+      "id": "Draconic",
+      "name": "draconic-evolution",
+      "version": "1.16-419",
+      "modLogoUrl": "https://media.forgecdn.net/avatars/thumbnails/1494/883/256/256/638971148228275878.png",
+      "modLink": "https://www.curseforge.com/minecraft/mc-mods/draconic-evolution",
+      "dependencies": null,
+      "addons": [null]
+    }
+  ]
+}

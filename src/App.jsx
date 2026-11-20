@@ -2,8 +2,8 @@ import { useState } from "react";
 import { Route, Routes } from "react-router";
 import "./App.css";
 import Header from "./components/Header.jsx";
-import playerCard from "./components/playerCard.jsx";
-import playerSkinImage from "./assets/imgs/skins/0f71df3f2c33584b.png";
+
+import PlayerScreen from "./screens/playerScreen.jsx";
 function App() {
   return (
     <>
@@ -11,14 +11,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<h1>Home Page</h1>} />
-        <Route
-          path="/player"
-          element={playerCard(
-            "SolApollo_21",
-            "Carlos Eduardo",
-            playerSkinImage,
-          )}
-        />
+        <Route path="/player" element={<PlayerScreen />} />
         <Route path="/contact" element={<h1>Contact Page</h1>} />
       </Routes>
     </>
