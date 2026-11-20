@@ -10,9 +10,12 @@ function App() {
       <Header />
 
       <Routes>
-        <Route path="/" element={<h1>Home Page</h1>} />
+        <Route path="/" element={<h1>Nada Aqui Ainda va para Players</h1>} />
         <Route path="/player" element={<PlayerScreen />} />
-        <Route path="/contact" element={<h1>Contact Page</h1>} />
+        <Route
+          path="/ModPack"
+          element={<h1>Nada Aqui Ainda va para Players</h1>}
+        />
       </Routes>
     </>
   );
