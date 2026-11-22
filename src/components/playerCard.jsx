@@ -1,4 +1,4 @@
-import React from "react";
+import { useState } from "react";
 import Skin3D from "./playerSkin.jsx";
 import ModCard from "./modCard.jsx";
 import playersData from "../assets/data/players.json";
@@ -7,14 +7,28 @@ export default function PlayerCard({ playerId }) {
   if (!player) {
     return <div>Player not found</div>;
   }
-  const { nickname, name, playerSkinImage, mod1, mod2 } = player;
+  const {
+    nickname,
+    name,
+    playerSkinImage,
+    PlayerSkinAltImage,
+    capeUrl,
+    mod1,
+    mod2,
+  } = player;
+
+  const [skynUrl] = useState(
+    playerSkinImage && Math.random() < 1 / 5
+      ? PlayerSkinAltImage || playerSkinImage
+      : playerSkinImage,
+  );
   console.log("Player Data:", player);
   return (
     <div
       id="player-card"
       className=" grid grid-cols-2 grid-rows-2 justify-center items-center p-4 bg-gray-700 text-white rounded-lg shadow-lg h-100"
     >
-      <Skin3D skinUrl={playerSkinImage} className="row-span-2" />
+      <Skin3D skinUrl={skynUrl} capeUrl={capeUrl} className="row-span-2" />
       <div id="player-info" className="flex flex-col justify-center ">
         <h2 className="text-lg font-bold text-gray-400">Nickname:</h2>
         <h2>{nickname}</h2>

@@ -24,6 +24,32 @@
       "modLink": "https://www.curseforge.com/minecraft/mc-mods/draconic-evolution",
       "dependencies": null,
       "addons": [null]
+    },
+    {
+      "id": "Mystc_Agri",
+      "name": "Mystical Agriculture",
+      "version": "8.0.29",
+      "modLogoUrl": "https://media.forgecdn.net/avatars/thumbnails/930/447/64/64/638403276234356700.png",
+      "dependencies": null,
+      "addons": [null]
+    },
+    {
+      "id": "Mahou",
+      "name": "Mahou Tsukai",
+      "version": "1.36.31",
+      "modLogoUrl": "https://media.forgecdn.net/avatars/thumbnails/226/708/64/64/637046797172980934.png",
+      "modLink": "https://www.curseforge.com/minecraft/mc-mods/mahou-tsukai",
+      "dependencies": null,
+      "addons": [null]
+    },
+    {
+      "id": "Meka",
+      "name": "Mekanism",
+      "version": "1.36.31",
+      "modLogoUrl": "https://media.forgecdn.net/avatars/thumbnails/492/672/64/64/637801316302309362.png",
+      "modLink": "https://www.curseforge.com/minecraft/mc-mods/mekanism",
+      "dependencies": null,
+      "addons": [null]
     }
   ]
 }

@@ -4,6 +4,7 @@
     "nickname": "SolApollo_21",
     "name": "Carlos Eduardo",
     "playerSkinImage": "/imgs/skins/SolApolo_21.png",
+    "capeUrl": "/imgs/capes/CoinCape.png",
     "mod1": "RF_Tools",
     "mod2": null
   },
@@ -12,23 +13,27 @@
     "nickname": "NAUM_ARANHABRCOM",
     "name": "Naum",
     "playerSkinImage": "/imgs/skins/Naum.png",
+    "capeUrl": "",
     "mod1": "Iron_Spells",
     "mod2": "Draconic"
   },
   {
-    "id": "Apollo",
-    "nickname": "SolApollo_21",
-    "name": "Carlos Eduardo",
-    "playerSkinImage": "/imgs/skins/SolApolo_21.png",
-    "mod1": "RF_Tools",
-    "mod2": null
+    "id": "Henrique",
+    "nickname": "Henriqueanao10",
+    "name": "Henrique",
+    "playerSkinImage": "/imgs/skins/Henriqueanao10.png",
+    "PlayerSkinAltImage": "/imgs/skins/Henriqueanao10_2.png",
+    "capeUrl": "",
+    "mod1": "Mystc_Agri",
+    "mod2": "Mahou"
   },
   {
-    "id": "Apollo",
-    "nickname": "SolApollo_21",
-    "name": "Carlos Eduardo",
-    "playerSkinImage": "/imgs/skins/SolApolo_21.png",
-    "mod1": "RF_Tools",
+    "id": "feryzar",
+    "nickname": "feryzar",
+    "name": "Davi",
+    "playerSkinImage": "/imgs/skins/feryzar.png",
+    "capeUrl": "/imgs/capes/BlackMoon.png",
+    "mod1": "Meka",
     "mod2": null
   }
 ]
