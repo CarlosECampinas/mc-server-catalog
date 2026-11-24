@@ -35,5 +35,34 @@
     "capeUrl": "/imgs/capes/BlackMoon.png",
     "mod1": "Meka",
     "mod2": null
+  },
+  {
+    "id": "Hunter",
+    "nickname": "Hunter",
+    "name": "unknow",
+    "playerSkinImage": "/imgs/skins/null.png",
+    "capeUrl": "",
+    "mod1": "projectE",
+    "mod2": "icefire"
+  },
+  {
+    "id": "Bread",
+    "nickname": "TemBread",
+    "name": "David",
+    "playerSkinImage": "/imgs/skins/TemBread.png",
+    "PlayerSkinAltImage": "/imgs/skins/TemBread_2.png",
+    "capeUrl": "",
+    "mod1": "SimplySwords",
+    "mod2": "Just Enough Guns New"
+  },
+  {
+    "id": "celio",
+    "nickname": "celiocaramelo",
+    "name": "celio",
+    "playerSkinImage": "/imgs/skins/celiocaramelo.png",
+    "PlayerSkinAltImage": "/imgs/skins/celiocaramelo_2.png",
+    "capeUrl": "",
+    "mod1": "powah",
+    "mod2": "create"
   }
 ]
