@@ -22,8 +22,8 @@ export default function PlayerScreen() {
 
   return (
     <div className="grid grid-cols-2 gap-4  justify-center items-center p-4 bg-gray-600 text-white h-full">
-      <div className="col-span-2 flex row w-full h-10">
-        <div className="bg-gray-700 flex items-center justify-center rounded-2xl w-2/3 relative p-2">
+      <div className="col-span-2 flex row w-full h-10 gap-2 ">
+        <div className="bg-gray-700 flex items-center justify-center rounded-2xl w-5/6 relative p-2">
           <Search className="w-4 h-4 text-gray-400 absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none" />
           <input
             type="text"
@@ -43,7 +43,7 @@ export default function PlayerScreen() {
             </button>
           )}
         </div>
-        <div className="bg-gray-700 flex items-center justify-center rounded-2xl w-1/3 gap-2">
+        <div className="bg-gray-700 flex items-center justify-center rounded-2xl w-1/6 gap-2 ">
           <Users className="w-4 h-4 text-[#ffffff]" />
           <p>
             <span>{playersData.length}</span>/15
