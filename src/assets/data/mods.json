@@ -1,64 +1,89 @@
 {
-  "mods": [
-    {
-      "id": "RF_Tools",
-      "name": "RF Tools",
-      "version": "6.0.11",
-      "modLogoUrl": "/imgs/mods-logo/rftools.jpg",
-      "dependencies": null,
-      "addons": [null]
-    },
-    {
-      "id": "Iron_Spells",
-      "name": "Iron's Spells 'n Spellbooks",
-      "version": "3.16.4",
-      "modLogoUrl": "https://media.forgecdn.net/avatars/thumbnails/871/265/64/64/638288661913483053.png",
-      "dependencies": null,
-      "addons": [null]
-    },
-    {
-      "id": "Draconic",
-      "name": "draconic-evolution",
-      "version": "1.16-419",
-      "modLogoUrl": "https://media.forgecdn.net/avatars/thumbnails/1494/883/256/256/638971148228275878.png",
-      "modLink": "https://www.curseforge.com/minecraft/mc-mods/draconic-evolution",
-      "dependencies": null,
-      "addons": [null]
-    },
-    {
-      "id": "Mystc_Agri",
-      "name": "Mystical Agriculture",
-      "version": "8.0.29",
-      "modLogoUrl": "https://media.forgecdn.net/avatars/thumbnails/930/447/64/64/638403276234356700.png",
-      "dependencies": null,
-      "addons": [null]
-    },
-    {
-      "id": "Mahou",
-      "name": "Mahou Tsukai",
-      "version": "1.36.31",
-      "modLogoUrl": "https://media.forgecdn.net/avatars/thumbnails/226/708/64/64/637046797172980934.png",
-      "modLink": "https://www.curseforge.com/minecraft/mc-mods/mahou-tsukai",
-      "dependencies": null,
-      "addons": [null]
-    },
-    {
-      "id": "Meka",
-      "name": "Mekanism",
-      "version": "1.36.31",
-      "modLogoUrl": "https://media.forgecdn.net/avatars/thumbnails/492/672/64/64/637801316302309362.png",
-      "modLink": "https://www.curseforge.com/minecraft/mc-mods/mekanism",
-      "dependencies": null,
-      "addons": [null]
-    },
-    {
-      "id": "icefire",
-      "name": "IceAndFire Community Edition",
-      "version": "2.2.1",
-      "modLogoUrl": "https://media.forgecdn.net/avatars/thumbnails/1129/550/64/64/638688106588576091.jpg",
-      "modLink": "https://www.curseforge.com/minecraft/mc-mods/iceandfire-ce",
-      "dependencies": null,
-      "addons": [null]
-    }
-  ]
+    "mods": [
+        {
+            "id": "RF_Tools",
+            "name": "RF Tools",
+            "version": "6.0.11",
+            "modLogoUrl": "/imgs/mods-logo/rftools.jpg",
+            "dependencies": null,
+            "addons": [
+                null
+            ]
+        },
+        {
+            "id": "Iron_Spells",
+            "name": "Iron's Spells 'n Spellbooks",
+            "version": "3.16.4",
+            "modLogoUrl": "https://media.forgecdn.net/avatars/thumbnails/871/265/64/64/638288661913483053.png",
+            "dependencies": null,
+            "addons": [
+                null
+            ]
+        },
+        {
+            "id": "Draconic",
+            "name": "draconic-evolution",
+            "version": "1.16-419",
+            "modLogoUrl": "https://media.forgecdn.net/avatars/thumbnails/1494/883/256/256/638971148228275878.png",
+            "modLink": "https://www.curseforge.com/minecraft/mc-mods/draconic-evolution",
+            "dependencies": null,
+            "addons": [
+                null
+            ]
+        },
+        {
+            "id": "Mystc_Agri",
+            "name": "Mystical Agriculture",
+            "version": "8.0.29",
+            "modLogoUrl": "https://media.forgecdn.net/avatars/thumbnails/930/447/64/64/638403276234356700.png",
+            "dependencies": null,
+            "addons": [
+                null
+            ]
+        },
+        {
+            "id": "Mahou",
+            "name": "Mahou Tsukai",
+            "version": "1.36.31",
+            "modLogoUrl": "https://media.forgecdn.net/avatars/thumbnails/226/708/64/64/637046797172980934.png",
+            "modLink": "https://www.curseforge.com/minecraft/mc-mods/mahou-tsukai",
+            "dependencies": null,
+            "addons": [
+                null
+            ]
+        },
+        {
+            "id": "Meka",
+            "name": "Mekanism",
+            "version": "1.36.31",
+            "modLogoUrl": "https://media.forgecdn.net/avatars/thumbnails/492/672/64/64/637801316302309362.png",
+            "modLink": "https://www.curseforge.com/minecraft/mc-mods/mekanism",
+            "dependencies": null,
+            "addons": [
+                null
+            ]
+        },
+        {
+            "id": "icefire",
+            "name": "IceAndFire Community Edition",
+            "version": "2.2.1",
+            "modLogoUrl": "https://media.forgecdn.net/avatars/thumbnails/1129/550/64/64/638688106588576091.jpg",
+            "modLink": "https://www.curseforge.com/minecraft/mc-mods/iceandfire-ce",
+            "dependencies": null,
+            "addons": [
+                null
+            ]
+        },
+        {
+            "id": "create",
+            "name": "Create",
+            "version": "1.1.1",
+            "modLogoUrl": "https://media.forgecdn.net/avatars/thumbnails/1065/184/256/256/638598725500886388.png",
+            "modLink": "https://www.curseforge.com/minecraft/mc-mods/create",
+            "dependencies": null,
+            "addons": [
+                null
+            ]
+        }
+    ]
 }
