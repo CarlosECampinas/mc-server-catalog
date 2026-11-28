@@ -19,4 +19,20 @@ npm install
 npm run dev
 ```
 
+### Editor local de jogadores
+
+Abra dois terminais na pasta do projeto. No primeiro, inicie o servidor que grava o JSON:
+
+```bash
+npm run players:server
+```
+
+No segundo, inicie o site com Vite:
+
+```bash
+npm run dev
+```
+
+Acesse `http://localhost:5173/#/Create` para adicionar, editar ou remover jogadores. Use o campo de upload da skin para gravar PNG, JPG ou WebP em `public/imgs/skins` e preencher o caminho automaticamente. As alterações dos jogadores são salvas em `src/assets/data/players.json`. O editor só aparece durante o desenvolvimento e o servidor de gravação é separado do build de produção.
+
 Outros comandos disponíveis: `npm run build` para gerar a versão de produção e `npm run lint` para verificar o código.

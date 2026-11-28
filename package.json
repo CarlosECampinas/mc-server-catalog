@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "players:server": "node scripts/players-server.js",
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview"

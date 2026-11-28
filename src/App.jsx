@@ -4,7 +4,8 @@ import "./App.css";
 import Header from "./components/Header.jsx";
 
 import PlayerScreen from "./screens/playerScreen.jsx";
-
+import PlayerEditor from "./screens/PlayerEditor.jsx";
+import ModScreen from "./screens/ModScreen.jsx";
 function App() {
   return (
     <>
@@ -13,11 +14,10 @@ function App() {
       <Routes>
         <Route path="/" element={<h1>Nada Aqui Ainda va para Players</h1>} />
         <Route path="/player" element={<PlayerScreen />} />
-        <Route
-          path="/ModPack"
-          element={<h1>Nada Aqui Ainda va para Players</h1>}
-        />
-        <Route path="/Create" element={<h1>Nada Aqui</h1>} />
+        <Route path="/ModPack" element={<ModScreen />} />
+        {import.meta.env.DEV && (
+          <Route path="/Create" element={<PlayerEditor />} />
+        )}
       </Routes>
     </>
   );
