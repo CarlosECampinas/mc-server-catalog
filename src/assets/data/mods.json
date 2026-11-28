@@ -6,9 +6,7 @@
             "version": "6.0.11",
             "modLogoUrl": "/imgs/mods-logo/rftools.jpg",
             "dependencies": null,
-            "addons": [
-                null
-            ]
+            "addons": []
         },
         {
             "id": "Iron_Spells",
@@ -16,9 +14,7 @@
             "version": "3.16.4",
             "modLogoUrl": "https://media.forgecdn.net/avatars/thumbnails/871/265/64/64/638288661913483053.png",
             "dependencies": null,
-            "addons": [
-                null
-            ]
+            "addons": []
         },
         {
             "id": "Draconic",
@@ -27,9 +23,7 @@
             "modLogoUrl": "https://media.forgecdn.net/avatars/thumbnails/1494/883/256/256/638971148228275878.png",
             "modLink": "https://www.curseforge.com/minecraft/mc-mods/draconic-evolution",
             "dependencies": null,
-            "addons": [
-                null
-            ]
+            "addons": []
         },
         {
             "id": "Mystc_Agri",
@@ -37,9 +31,7 @@
             "version": "8.0.29",
             "modLogoUrl": "https://media.forgecdn.net/avatars/thumbnails/930/447/64/64/638403276234356700.png",
             "dependencies": null,
-            "addons": [
-                null
-            ]
+            "addons": []
         },
         {
             "id": "Mahou",
@@ -48,9 +40,7 @@
             "modLogoUrl": "https://media.forgecdn.net/avatars/thumbnails/226/708/64/64/637046797172980934.png",
             "modLink": "https://www.curseforge.com/minecraft/mc-mods/mahou-tsukai",
             "dependencies": null,
-            "addons": [
-                null
-            ]
+            "addons": []
         },
         {
             "id": "Meka",
@@ -59,9 +49,7 @@
             "modLogoUrl": "https://media.forgecdn.net/avatars/thumbnails/492/672/64/64/637801316302309362.png",
             "modLink": "https://www.curseforge.com/minecraft/mc-mods/mekanism",
             "dependencies": null,
-            "addons": [
-                null
-            ]
+            "addons": []
         },
         {
             "id": "icefire",
@@ -70,9 +58,7 @@
             "modLogoUrl": "https://media.forgecdn.net/avatars/thumbnails/1129/550/64/64/638688106588576091.jpg",
             "modLink": "https://www.curseforge.com/minecraft/mc-mods/iceandfire-ce",
             "dependencies": null,
-            "addons": [
-                null
-            ]
+            "addons": []
         },
         {
             "id": "create",
@@ -81,9 +67,7 @@
             "modLogoUrl": "https://media.forgecdn.net/avatars/thumbnails/1065/184/256/256/638598725500886388.png",
             "modLink": "https://www.curseforge.com/minecraft/mc-mods/create",
             "dependencies": null,
-            "addons": [
-                null
-            ]
+            "addons": []
         },
         {
             "id": "alltheores",
@@ -91,9 +75,7 @@
             "version": "3.2.0",
             "modLogoUrl": "https://cdn.modrinth.com/data/NAludpU5/7c45b1c5b868bcb318d640ede6227446fa0035a1_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/all-the-ores"
         },
         {
@@ -103,7 +85,7 @@
             "modLogoUrl": "https://cdn.modrinth.com/data/6iTJugQR/46e156f1c798bfc3c18bd2a55567af1086674f02_96.webp",
             "dependencies": null,
             "addons": [
-                null
+                "supplementaries"
             ],
             "modLink": "https://modrinth.com/mod/amendments"
         },
@@ -113,9 +95,7 @@
             "version": "4.0.3",
             "modLogoUrl": "https://cdn.modrinth.com/data/ulloLmqG/6cdf97184b145e086291c27c0ef933c512e01f08_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/another-furniture"
         },
         {
@@ -124,9 +104,7 @@
             "version": "mc1.21-3.0.9",
             "modLogoUrl": "https://cdn.modrinth.com/data/EsAfCjCV/icon.png",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/appleskin"
         },
         {
@@ -135,9 +113,7 @@
             "version": "13.0.12",
             "modLogoUrl": "https://cdn.modrinth.com/data/lhGA9TYQ/05fe3a61c28faaccaec3533b92e1b321edde7bf6_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/architectury-api"
         },
         {
@@ -146,9 +122,7 @@
             "version": "13.2.5",
             "modLogoUrl": "https://cdn.modrinth.com/data/P0Mu4wcQ/icon.png",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/artifacts"
         },
         {
@@ -157,9 +131,7 @@
             "version": "21.1.1",
             "modLogoUrl": "https://cdn.modrinth.com/data/Q8xUICr6/c93f0bf8ae25d396079745ecc4f377706ef84533.png",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/ash-api"
         },
         {
@@ -168,9 +140,7 @@
             "version": "1.21.1-2.0.7",
             "modLogoUrl": "https://cdn.modrinth.com/data/OfKzpbRU/d007c3afd229b8e796f41174ceacd7c8f0f436cc_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/baguettelib"
         },
         {
@@ -179,9 +149,7 @@
             "version": "1.21.1-21.0.67",
             "modLogoUrl": "https://cdn.modrinth.com/data/MBAkmtvl/285b7bcfd6e525c043e640b08f3efc0cde90f7dd_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/balm"
         },
         {
@@ -190,9 +158,7 @@
             "version": "1.21.1-v.1.4.1",
             "modLogoUrl": "https://cdn.modrinth.com/data/CAASGC7r/eb6bdee7ec73680f0df2ff12824321955738cf8b.png",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/builders-delight"
         },
         {
@@ -201,9 +167,7 @@
             "version": "1.21.1-1.0.22",
             "modLogoUrl": "https://cdn.modrinth.com/data/oiuNWinn/c91b7ba8721da7f1d4676d420e622a19443a425b.png",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/camera-mod"
         },
         {
@@ -212,9 +176,7 @@
             "version": "1.21.1-2.2.6.13",
             "modLogoUrl": "https://cdn.modrinth.com/data/joEfVgkn/d7750a532cd45c9020bf4d07f304191de6e98c19_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/carry-on"
         },
         {
@@ -223,9 +185,7 @@
             "version": "1.4.23",
             "modLogoUrl": "https://cdn.modrinth.com/data/fALzjamp/e1954413665e57b7bae1feef44eda530270c7d47_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/chunky"
         },
         {
@@ -234,9 +194,7 @@
             "version": "1.21.1-1.9.1",
             "modLogoUrl": "https://cdn.modrinth.com/data/V8HM9qmm/icon.png",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/colossal-chests"
         },
         {
@@ -245,9 +203,7 @@
             "version": "9.0.5+1.21.1",
             "modLogoUrl": "https://cdn.modrinth.com/data/SaCpeal4/ed4840f0c9a30e04ad88413bd82cd762dd6ec95d.png",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/comforts"
         },
         {
@@ -256,9 +212,7 @@
             "version": "1.21.1-19.0.5",
             "modLogoUrl": "https://cdn.modrinth.com/data/xv94TkTM/bdb6feb3d04ca37da4ed5aa73fef062a39d8b3e5_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/controlling"
         },
         {
@@ -267,9 +221,7 @@
             "version": "1.21.0-1.3.9",
             "modLogoUrl": "https://cdn.modrinth.com/data/rLLJ1OZM/7c7b819ec62d311533db06f6674ce4ebeb867a9d_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/coroutil"
         },
         {
@@ -278,9 +230,7 @@
             "version": "1.21.1-4.2.1",
             "modLogoUrl": "https://cdn.modrinth.com/data/pJGcKPh1/5e2a59a14b112aa7814260b71adb09617cc4e4bf_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/corpse-x-curios-api-compat"
         },
         {
@@ -290,7 +240,8 @@
             "modLogoUrl": "https://cdn.modrinth.com/data/WrpuIfhw/032925a79197e9e23be2c6a07d994b17e3363912.png",
             "dependencies": null,
             "addons": [
-                null
+                "corpsecurioscompat",
+                "cosmeticcorpsecompat"
             ],
             "modLink": "https://modrinth.com/mod/corpse"
         },
@@ -301,7 +252,7 @@
             "modLogoUrl": "https://cdn.modrinth.com/data/VrbUxhCI/e4bbd29637ca79b9e9bd58dee27f26f1d1764b6d_96.webp",
             "dependencies": null,
             "addons": [
-                null
+                "cosmeticcorpsecompat"
             ],
             "modLink": "https://modrinth.com/mod/corpse-x-cosmetic-armor-reworked-compat"
         },
@@ -311,9 +262,7 @@
             "version": "1.21.1-1.0.0",
             "modLogoUrl": "https://cdn.modrinth.com/data/VrbUxhCI/e4bbd29637ca79b9e9bd58dee27f26f1d1764b6d_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/corpse-x-cosmetic-armor-reworked-compat"
         },
         {
@@ -322,9 +271,7 @@
             "version": "3.0.3",
             "modLogoUrl": "https://cdn.modrinth.com/data/tnxhDX6A/99b3517aecae9b6d15bcedbdff6c46a759ab3aac_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/crystalix"
         },
         {
@@ -334,7 +281,7 @@
             "modLogoUrl": "https://cdn.modrinth.com/data/vvuO3ImH/2a7323ca80849de0bcb50299e18acdf8bf394682.png",
             "dependencies": null,
             "addons": [
-                null
+                "corpsecurioscompat"
             ],
             "modLink": "https://modrinth.com/mod/curios"
         },
@@ -344,9 +291,7 @@
             "version": "1.21.1-1.30.2",
             "modLogoUrl": "https://cdn.modrinth.com/data/Z9DM0LJ4/icon.png",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/cyclops-core"
         },
         {
@@ -355,9 +300,7 @@
             "version": "1.21.1-3.3.3",
             "modLogoUrl": "https://cdn.modrinth.com/data/aQ7h7gal/8a00e145dbd34a075bf3c8cc5a0c8562474d6898_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/dramatic-doors"
         },
         {
@@ -366,9 +309,7 @@
             "version": "1.21-2.1.2",
             "modLogoUrl": "",
             "dependencies": null,
-            "addons": [
-                null
-            ]
+            "addons": []
         },
         {
             "id": "dynamicsurroundings",
@@ -376,9 +317,7 @@
             "version": "1.21.1-0.4.9",
             "modLogoUrl": "https://cdn.modrinth.com/data/4TSI7dRt/32645cba83aa040ff7d803ae97f7709251abaeb0_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/dynamicsurroundings_remasteredfabric"
         },
         {
@@ -387,9 +326,7 @@
             "version": "1.21.1-1.11.4",
             "modLogoUrl": "https://cdn.modrinth.com/data/hi2dSXTu/8ed4be9e8cbef13f333a0c285468379824a83b5e_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/elevatormod"
         },
         {
@@ -398,9 +335,7 @@
             "version": "1.21.1-6.3.0",
             "modLogoUrl": "https://cdn.modrinth.com/data/ZJTGwAND/c3ef9ecaecdf6ebe10623afbf60e25da211fe235_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/endrem"
         },
         {
@@ -409,9 +344,7 @@
             "version": "1.12.2-mc1.21.1",
             "modLogoUrl": "https://cdn.modrinth.com/data/NNAgCjsB/7873452d6cede4daed12da3d7d8c193ab88b4fd6_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/entityculling"
         },
         {
@@ -420,9 +353,7 @@
             "version": "1.21.1-3.4.0",
             "modLogoUrl": "https://cdn.modrinth.com/data/RV1qfVQ8/8f36254e98a4caa95684fcf4dbe72c2264c98cfc.png",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/explorers-compass"
         },
         {
@@ -431,9 +362,7 @@
             "version": "1.21.1-1.3.4",
             "modLogoUrl": "https://cdn.modrinth.com/data/R2OftAxM/8e7aa38ab94d94bb0a2894a218b69beb49002b34.png",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/farmers-delight"
         },
         {
@@ -442,9 +371,7 @@
             "version": "7.0.3",
             "modLogoUrl": "https://cdn.modrinth.com/data/uXXizFIs/222a126f26f8f9ae1eb339f3b767677f18bff31f_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/ferrite-core"
         },
         {
@@ -453,9 +380,7 @@
             "version": "10.6.3",
             "modLogoUrl": "https://cdn.modrinth.com/data/wbgfS34j/9e1c5293570d9822e51b99a385e25835f2ee6b1d.png",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/framedblocks"
         },
         {
@@ -464,9 +389,7 @@
             "version": "1.6.15+1.21.1",
             "modLogoUrl": "https://cdn.modrinth.com/data/5ZwdcRci/e57b6b451425692ac17ad322d5e14bea686a383a_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/immediatelyfast"
         },
         {
@@ -475,9 +398,7 @@
             "version": "0.8.4-1.21.1",
             "modLogoUrl": "https://cdn.modrinth.com/data/TaSmHw8V/0a6a64c671e15a657e18d623f2912a9b0a058809_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/immersive-melodies"
         },
         {
@@ -486,9 +407,7 @@
             "version": "1.21.1-12.4.2-194",
             "modLogoUrl": "https://cdn.modrinth.com/data/tIm2nV03/icon.png",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/immersiveengineering"
         },
         {
@@ -497,9 +416,7 @@
             "version": "1.21.1-2.2.5",
             "modLogoUrl": "https://cdn.modrinth.com/data/O7RBXm3n/04cdecd37b4c7409f70d36fcdc85722ebf14aab8_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/inventory-profiles-next"
         },
         {
@@ -508,9 +425,7 @@
             "version": "1.21.1-4.3.2",
             "modLogoUrl": "https://cdn.modrinth.com/data/yPlaLxD1/8788274b9d09dba7bfc99b29d9d0a708ba5e4e74.png",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/iron-furnaces"
         },
         {
@@ -519,9 +434,7 @@
             "version": "1.21.1-15.10.6",
             "modLogoUrl": "https://cdn.modrinth.com/data/nvQzSEkH/b04217bc2b7dc524c4d12f81ff42cc1cefb9b0fc_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/jade"
         },
         {
@@ -530,9 +443,7 @@
             "version": "1.3.6+1.21.1",
             "modLogoUrl": "https://cdn.modrinth.com/data/IYY9Siz8/7585f4d35b18467c2d0d9c496e3b7cd4919c413a_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/jamlib"
         },
         {
@@ -541,9 +452,7 @@
             "version": "1.21.1-19.64.0.455",
             "modLogoUrl": "https://cdn.modrinth.com/data/u6dRKJwZ/4a3f18ac0d096c9f8e9176984c44be4e58f94c89_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/jei"
         },
         {
@@ -552,9 +461,7 @@
             "version": "5.13.0-all",
             "modLogoUrl": "https://cdn.modrinth.com/data/ordsPcFz/064b8f129b776eb303f7f8b1a610e21d153c74b9_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/kotlin-for-forge"
         },
         {
@@ -563,9 +470,7 @@
             "version": "1.1.0",
             "modLogoUrl": "https://cdn.modrinth.com/data/fUmGbGfK/2e4343b9fe9a44239b751a359693d2f244041194_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/lets-do-foundation"
         },
         {
@@ -574,9 +479,7 @@
             "version": "1.1.11",
             "modLogoUrl": "https://cdn.modrinth.com/data/3JQDJrYW/57c9f45847d181586aa19f2b40dba3d756efe3c8_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/lets-do-furniture"
         },
         {
@@ -585,9 +488,7 @@
             "version": "1.21.1-6.6.3",
             "modLogoUrl": "https://cdn.modrinth.com/data/onSQdWhM/feb2d62d9f150539bfd2a69d373866b1e643545c_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/libipn"
         },
         {
@@ -596,9 +497,7 @@
             "version": "1.21.1-1.11.38.127",
             "modLogoUrl": "https://cdn.modrinth.com/data/EltpO5cN/3dc915eb1bbcd65654c17eb3870de4aba055d0c6_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/lootr"
         },
         {
@@ -607,9 +506,7 @@
             "version": "2.4.2-mc1.21.1",
             "modLogoUrl": "https://cdn.modrinth.com/data/C7I0BCni/7eb5e7816f887154e69a4001bee5bcc143242b32_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/macaws-windows"
         },
         {
@@ -618,9 +515,7 @@
             "version": "1.21.1-0.7.1",
             "modLogoUrl": "https://cdn.modrinth.com/data/7tEfOcA7/afd8afef2372805ff11f89425284129eebf87a1c_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/mezzconfig"
         },
         {
@@ -629,9 +524,7 @@
             "version": "5.27.27+mc1.21.1",
             "modLogoUrl": "https://cdn.modrinth.com/data/nmDcB62a/2af94de5e08ae54567ee86b968fc7ce076d9fee5_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/modernfix"
         },
         {
@@ -641,7 +534,8 @@
             "modLogoUrl": "https://cdn.modrinth.com/data/twkfQtEc/icon.png",
             "dependencies": null,
             "addons": [
-                null
+                "supplementaries",
+                "amendments"
             ],
             "modLink": "https://modrinth.com/mod/moonlight"
         },
@@ -651,9 +545,7 @@
             "version": "mc1.21-2.26.1",
             "modLogoUrl": "https://cdn.modrinth.com/data/aC3cM3Vq/6c0eaa4e60a9c87f4766f222ff63286f09da32c0_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/mouse-tweaks"
         },
         {
@@ -662,9 +554,7 @@
             "version": "1.21.1-3.4.0",
             "modLogoUrl": "https://cdn.modrinth.com/data/fPetb5Kh/95e4110a4cf600843c4ba9d545cc1b60e2c00eaa.png",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/natures-compass"
         },
         {
@@ -673,9 +563,7 @@
             "version": "1.12.7-mc1.21.1",
             "modLogoUrl": "https://cdn.modrinth.com/data/MPCX6s5C/b97fd5f7a893165052408b747286d6eb38d57abb_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/not-enough-animations"
         },
         {
@@ -684,9 +572,7 @@
             "version": "0.6.3.3-1.21",
             "modLogoUrl": "https://cdn.modrinth.com/data/RH2KUdKJ/a4043436fa16d40de4faa032b08e0879b8397259_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/shatterbyte-lib"
         },
         {
@@ -695,9 +581,7 @@
             "version": "1.21.1-1.2.31",
             "modLogoUrl": "https://cdn.modrinth.com/data/iRmWy6ga/be55098fe4886146924fd873e88169c10bf47051.png",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/pipez"
         },
         {
@@ -706,9 +590,7 @@
             "version": "1.1.0+1.21.1",
             "modLogoUrl": "https://cdn.modrinth.com/data/tagwiZkJ/ed244c5829bde539763c7fffb55cb3194a349d66.png",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/polymorph"
         },
         {
@@ -717,9 +599,7 @@
             "version": "4.1-489",
             "modLogoUrl": "https://cdn.modrinth.com/data/qnQsVE2z/aef2119751d026421b9e9dc83d4470eec9f91a16_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/quark"
         },
         {
@@ -728,9 +608,7 @@
             "version": "1.21-0.9.7",
             "modLogoUrl": "",
             "dependencies": null,
-            "addons": [
-                null
-            ]
+            "addons": []
         },
         {
             "id": "relics",
@@ -738,9 +616,7 @@
             "version": "1.21.1-0.10.7.8",
             "modLogoUrl": "https://cdn.modrinth.com/data/OCJRPujW/abd5b9d7ed74ec3260e5807cfa1e9c7e28285450.gif",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/relics-mod"
         },
         {
@@ -749,9 +625,7 @@
             "version": "4.7.2-1.21.1",
             "modLogoUrl": "https://cdn.modrinth.com/data/RWrgTm1s/b3e1ac0397f2ece28106bb87f075ab4e878b0d46_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/better-farming-right-click"
         },
         {
@@ -760,9 +634,7 @@
             "version": "mc1.21.1-0.1.5",
             "modLogoUrl": "https://cdn.modrinth.com/data/2eT495vq/e031d27b5a54e4a48c014f38407a8cca43f7d6f7_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/saturn"
         },
         {
@@ -771,9 +643,7 @@
             "version": "1.21.1-1.0.2",
             "modLogoUrl": "https://cdn.modrinth.com/data/fuuu3xnx/206971d54b37b30a2e728b1c194f7f096963d05a_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/searchables"
         },
         {
@@ -783,7 +653,8 @@
             "modLogoUrl": "https://cdn.modrinth.com/data/PxQSWIcD/a5ab5515213391934e18baaf487c87e4b24ebfa3_96.webp",
             "dependencies": null,
             "addons": [
-                null
+                "sodium",
+                "sodiumoptionsapi"
             ],
             "modLink": "https://modrinth.com/mod/sodium-dynamic-lights"
         },
@@ -794,7 +665,8 @@
             "modLogoUrl": "https://cdn.modrinth.com/data/AANobbMI/295862f4724dc3f78df3447ad6072b2dcd3ef0c9_96.webp",
             "dependencies": null,
             "addons": [
-                null
+                "sodiumdynamiclights",
+                "sodiumoptionsapi"
             ],
             "modLink": "https://modrinth.com/mod/sodium"
         },
@@ -804,9 +676,7 @@
             "version": "1.0.10-1.21.1",
             "modLogoUrl": "https://cdn.modrinth.com/data/Es5v4eyq/7bff17babb498584c0edd74211d97435b651c11f_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/sodium-options-api"
         },
         {
@@ -816,7 +686,7 @@
             "modLogoUrl": "https://cdn.modrinth.com/data/TyCTlI4b/e31c7e2f8769d317339e25b2a8d1b40fbf312729_96.webp",
             "dependencies": null,
             "addons": [
-                null
+                "sophisticatedcore"
             ],
             "modLink": "https://modrinth.com/mod/sophisticated-backpacks"
         },
@@ -827,7 +697,8 @@
             "modLogoUrl": "https://cdn.modrinth.com/data/nmoqTijg/83f980596761b59f5c3e4e4d2c90d031d9d69ff6.png",
             "dependencies": null,
             "addons": [
-                null
+                "sophisticatedbackpacks",
+                "sophisticatedstorage"
             ],
             "modLink": "https://modrinth.com/mod/sophisticated-core"
         },
@@ -838,7 +709,7 @@
             "modLogoUrl": "https://cdn.modrinth.com/data/hMlaZH8f/8c041db5cf8062e7471d5e239836c8b807853def_96.webp",
             "dependencies": null,
             "addons": [
-                null
+                "sophisticatedcore"
             ],
             "modLink": "https://modrinth.com/mod/sophisticated-storage"
         },
@@ -848,9 +719,7 @@
             "version": "1.21.1-13.11.4",
             "modLogoUrl": "https://cdn.modrinth.com/data/guitPqEi/58b4229c52876eff66c9f98a5d2a1e9b9f648501.png",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/storagedrawers"
         },
         {
@@ -860,7 +729,7 @@
             "modLogoUrl": "https://cdn.modrinth.com/data/fFEIiSDQ/e9f5f66fa3b67e54acb91258a1428d68311c58bc_96.webp",
             "dependencies": null,
             "addons": [
-                null
+                "amendments"
             ],
             "modLink": "https://modrinth.com/mod/supplementaries"
         },
@@ -870,9 +739,7 @@
             "version": "1.21-2.4.2",
             "modLogoUrl": "https://cdn.modrinth.com/data/XZNI4Cpy/1949d7adbf962ac86912608edfb93fa5342bffd6_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/toms-storage"
         },
         {
@@ -881,9 +748,7 @@
             "version": "1.21.1-21.1.13",
             "modLogoUrl": "https://cdn.modrinth.com/data/Tl8ESrhX/icon.png",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/torchmaster"
         },
         {
@@ -892,9 +757,7 @@
             "version": "21.1.0",
             "modLogoUrl": "https://cdn.modrinth.com/data/zp4jb9oQ/icon.png",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/transparent"
         },
         {
@@ -903,9 +766,7 @@
             "version": "1.21.1-2.6.22",
             "modLogoUrl": "https://cdn.modrinth.com/data/9eGKb6K1/icon.png",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/simple-voice-chat"
         },
         {
@@ -914,9 +775,7 @@
             "version": "1.21.0-1.2.7",
             "modLogoUrl": "https://cdn.modrinth.com/data/AtB5mHky/f0809106cc4633fb64323664664280f860b080a4_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/what-are-they-up-to"
         },
         {
@@ -925,9 +784,7 @@
             "version": "1.21.1-21.1.47",
             "modLogoUrl": "https://cdn.modrinth.com/data/LOpKHB2A/d56c030a875582aff5bab477ddcfec317a1610f0_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/waystones"
         },
         {
@@ -936,9 +793,7 @@
             "version": "1.3.1",
             "modLogoUrl": "https://cdn.modrinth.com/data/AVo2esap/80264cbdd911307064a8fcd594488e50f9f874cf.png",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/wits"
         },
         {
@@ -947,9 +802,7 @@
             "version": "1.1-41",
             "modLogoUrl": "https://cdn.modrinth.com/data/MVARlG2f/d09aff2a1c134defab38a19db7c7431df8173a14_96.webp",
             "dependencies": null,
-            "addons": [
-                null
-            ],
+            "addons": [],
             "modLink": "https://modrinth.com/mod/zeta"
         }
     ]

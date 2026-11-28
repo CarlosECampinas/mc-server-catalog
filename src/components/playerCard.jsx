@@ -7,7 +7,7 @@ export default function PlayerCard({ playerId }) {
   const player = playersData.find((p) => p.id === playerId);
   if (!player) {
     return (
-      <div className="p-4 bg-gray-700 text-white rounded-lg shadow-lg">
+      <div className="rounded-2xl border border-white/10 bg-gray-900 p-5 text-gray-400">
         Player not found
       </div>
     );
@@ -32,10 +32,10 @@ export default function PlayerCard({ playerId }) {
   return (
     <div
       id="player-card"
-      className="flex flex-col md:flex-row items-center md:items-stretch gap-4 p-4 bg-gray-700 text-white rounded-xl shadow-lg w-full min-w-0 h-full"
+      className="flex h-full w-full min-w-0 flex-col items-center gap-5 rounded-2xl border border-white/10 bg-gray-900 p-4 text-white shadow-lg transition hover:border-lime-300/20 sm:p-5 md:flex-row md:items-stretch"
     >
       {/* Skin 3D */}
-      <div className="shrink-0 flex items-center justify-center bg-gray-800/70 rounded-xl p-2 w-full md:w-44 lg:w-48 min-h-52">
+      <div className="flex min-h-52 w-full shrink-0 items-center justify-center rounded-xl border border-white/5 bg-gradient-to-br from-gray-800 to-gray-950 p-2 md:w-44 lg:w-48">
         <Skin3D skinUrl={skynUrl} capeUrl={capeUrl} />
       </div>
 
@@ -43,10 +43,10 @@ export default function PlayerCard({ playerId }) {
       <div className="flex-1 min-w-0 w-full flex flex-col justify-between gap-4">
         <div
           id="player-info"
-          className="grid grid-cols-1 sm:grid-cols-2 gap-3 bg-gray-800/40 p-3 rounded-xl border border-gray-600/40"
+          className="grid grid-cols-1 gap-3 rounded-xl border border-white/10 bg-gray-950/70 p-4 sm:grid-cols-2"
         >
           <div className="min-w-0">
-            <span className="block text-xs font-bold uppercase tracking-wider text-gray-400">
+            <span className="block text-[10px] font-bold uppercase tracking-[0.18em] text-lime-300/80">
               Nickname
             </span>
             <h2
@@ -58,7 +58,7 @@ export default function PlayerCard({ playerId }) {
           </div>
 
           <div className="min-w-0">
-            <span className="block text-xs font-bold uppercase tracking-wider text-gray-400">
+            <span className="block text-[10px] font-bold uppercase tracking-[0.18em] text-lime-300/80">
               Name
             </span>
             <h3
@@ -71,8 +71,8 @@ export default function PlayerCard({ playerId }) {
         </div>
 
         <div id="player-mods" className="flex flex-col gap-2 min-w-0">
-          <h4 className="text-xs font-bold uppercase tracking-wider text-gray-400">
-            Mods:
+          <h4 className="text-xs font-bold uppercase tracking-[0.18em] text-gray-400">
+            Mods em destaque
           </h4>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 min-w-0">
             {mod1 && <ModCard modId={mod1} />}

@@ -1,5 +1,5 @@
 import { useState, useMemo } from "react";
-import { Search, Package, X } from "lucide-react";
+import { Search, Package, X, Blocks } from "lucide-react";
 import ModCard from "../components/modCard.jsx";
 import modList from "../assets/data/mods.json";
 
@@ -23,52 +23,52 @@ export default function ModScreen() {
   }, [mods, searchTerm]);
 
   return (
-    <div className="p-4 bg-gray-600 text-white min-h-full">
-      {/* Barra superior com contador e pesquisa */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-4">
-        <div className="inline-flex items-center gap-2 bg-gray-700/80 border border-gray-500/50 px-3 py-1.5 rounded-lg text-xs font-semibold w-fit">
-          <Package className="w-4 h-4 text-[#b4ee55]" />
-          <span>
-            {searchTerm.trim()
-              ? `${filteredMods.length} de ${mods.length} mods`
-              : `${mods.length} ${mods.length === 1 ? "mod cadastrado" : "mods cadastrados"}`}
-          </span>
-        </div>
+    <main className="min-h-[calc(100vh-68px)] bg-gray-950 px-4 py-8 text-white sm:px-6 sm:py-10">
+      <div className="mx-auto max-w-6xl">
+        <section className="mb-6 rounded-3xl border border-lime-300/15 bg-gradient-to-br from-gray-800 via-gray-900 to-gray-950 p-6 sm:p-8">
+          <div className="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
+            <div>
+              <div className="mb-3 inline-flex items-center gap-2 text-xs font-bold uppercase tracking-[0.2em] text-lime-300">
+                <Blocks className="h-4 w-4" /> Catálogo CashMine
+              </div>
+              <h1 className="text-3xl font-black tracking-tight sm:text-4xl">Mods do servidor</h1>
+              <p className="mt-2 max-w-xl text-sm leading-6 text-gray-400">
+                Consulte versões e explore addons, dependências e compatibilidades relacionados.
+              </p>
+            </div>
+            <div className="flex items-center gap-2 self-start rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm font-semibold sm:self-auto">
+              <Package className="h-4 w-4 text-lime-300" />
+              <span>{searchTerm.trim() ? `${filteredMods.length} de ${mods.length} mods` : `${mods.length} mods cadastrados`}</span>
+            </div>
+          </div>
+        </section>
 
-        <div className="relative w-full sm:w-72">
-          <Search className="w-4 h-4 text-gray-400 absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none" />
+        <div className="relative mb-6 max-w-xl">
+          <Search className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-gray-500" />
           <input
             type="text"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            placeholder="Pesquisar mod por nome ou versão..."
-            className="w-full bg-gray-700 border border-gray-500 focus:border-[#b4ee55] rounded-lg pl-9 pr-8 py-2 text-xs text-white placeholder-gray-400 outline-none"
+            placeholder="Buscar por nome, ID ou versão..."
+            className="w-full rounded-xl border border-white/10 bg-gray-900 py-3 pl-11 pr-10 text-sm text-white outline-none transition placeholder:text-gray-500 focus:border-lime-300/50 focus:ring-2 focus:ring-lime-300/10"
           />
           {searchTerm && (
-            <button
-              type="button"
-              onClick={() => setSearchTerm("")}
-              title="Limpar pesquisa"
-              className="absolute right-2 top-1/2 -translate-y-1/2 text-gray-400 hover:text-white p-0.5 cursor-pointer"
-            >
-              <X className="w-3.5 h-3.5" />
+            <button type="button" onClick={() => setSearchTerm("")} title="Limpar busca" className="absolute right-3 top-1/2 -translate-y-1/2 rounded p-1 text-gray-400 hover:text-white">
+              <X className="h-4 w-4" />
             </button>
           )}
         </div>
-      </div>
 
-      {/* Grid de Mods */}
-      {filteredMods.length === 0 ? (
-        <div className="bg-gray-700/60 border border-gray-500/40 rounded-xl p-8 text-center text-sm text-gray-300">
-          Nenhum mod encontrado para "{searchTerm}".
-        </div>
-      ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 items-start">
-          {filteredMods.map((mod, index) => (
-            <ModCard key={`${mod.id}-${index}`} modId={mod.id} />
-          ))}
-        </div>
-      )}
-    </div>
+        {filteredMods.length === 0 ? (
+          <div className="rounded-2xl border border-white/10 bg-gray-900 p-10 text-center text-sm text-gray-400">
+            Nenhum mod encontrado para “{searchTerm}”.
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 items-start gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {filteredMods.map((mod, index) => <ModCard key={`${mod.id}-${index}`} modId={mod.id} />)}
+          </div>
+        )}
+      </div>
+    </main>
   );
 }

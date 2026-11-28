@@ -1,26 +1,19 @@
-import React from "react";
 import { Link } from "react-router";
-import { GlobeOff, GlobeCheck } from "lucide-react";
-let serverStatus = "offline"; // This should be dynamically fetched from your server status API
+import { Pickaxe } from "lucide-react";
 export default function Header({ inDev = false }) {
   return (
-    <header className="flex justify-between items-center p-4 bg-gray-800 text-white">
+    <header className="flex flex-wrap justify-between items-center gap-3 p-4 bg-gray-900 text-white border-b border-white/10">
       <div id="logo">
-        <h1>CashMine</h1>
+        <Link to="/" className="text-lg font-extrabold tracking-tight hover:text-lime-300">CashMine</Link>
       </div>
-      <div id="nav" className="flex gap-4">
-        <Link to="/">Home</Link>
-        <Link to="/player">player</Link>
-        <Link to="/ModPack">Mods</Link>
-        {inDev ? <Link to="/Create">Admin</Link> : ""}
-      </div>
-      <div className="flex gap-1">
-        Server is{" "}
-        {serverStatus == "online" ? (
-          <GlobeCheck color="oklch(72.3% 0.219 149.579)" />
-        ) : (
-          <GlobeOff color="oklch(57.7% 0.245 27.325)" />
-        )}
+      <nav id="nav" aria-label="Navegação principal" className="flex gap-4 text-sm text-gray-300">
+        <Link className="transition hover:text-lime-300" to="/">Home</Link>
+        <Link className="transition hover:text-lime-300" to="/player">Jogadores</Link>
+        <Link className="transition hover:text-lime-300" to="/ModPack">Mods</Link>
+        {inDev ? <Link className="transition hover:text-lime-300" to="/Create">Admin</Link> : ""}
+      </nav>
+      <div className="flex items-center gap-2 rounded-full border border-lime-300/20 bg-lime-300/10 px-3 py-1.5 text-xs font-semibold text-lime-200">
+        <Pickaxe className="h-4 w-4" /> Minecraft
       </div>
     </header>
   );

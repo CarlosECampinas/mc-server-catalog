@@ -1,6 +1,6 @@
 import PlayerCard from "../components/playerCard.jsx";
 import playersData from "../assets/data/players.json";
-import { Search, Users, X } from "lucide-react";
+import { Search, Users, X, UserRound } from "lucide-react";
 import { useMemo, useState } from "react";
 
 export default function PlayerScreen() {
@@ -22,50 +22,50 @@ export default function PlayerScreen() {
   }, [searchTerm]);
 
   return (
-    <div className="flex flex-col gap-4 p-3 sm:p-4 bg-gray-600 text-white min-h-full w-full">
-      {/* Barra de pesquisa e contador */}
-      <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2 sm:gap-3 w-full">
-        <div className="bg-gray-700 flex items-center rounded-xl flex-1 min-w-0 relative px-3 py-2 border border-gray-600/60 focus-within:border-gray-400">
-          <Search className="w-4 h-4 text-gray-400 shrink-0 mr-2 pointer-events-none" />
+    <main className="min-h-[calc(100vh-68px)] bg-gray-950 px-4 py-8 text-white sm:px-6 sm:py-10">
+      <div className="mx-auto max-w-6xl">
+        <section className="mb-6 rounded-3xl border border-lime-300/15 bg-gradient-to-br from-gray-800 via-gray-900 to-gray-950 p-6 sm:p-8">
+          <div className="flex flex-col gap-5 sm:flex-row sm:items-end sm:justify-between">
+            <div>
+              <div className="mb-3 inline-flex items-center gap-2 text-xs font-bold uppercase tracking-[0.2em] text-lime-300">
+                <UserRound className="h-4 w-4" /> Comunidade CashMine
+              </div>
+              <h1 className="text-3xl font-black tracking-tight sm:text-4xl">Jogadores</h1>
+              <p className="mt-2 text-sm leading-6 text-gray-400">Conheça a comunidade, seus nicks e skins.</p>
+            </div>
+            <div className="flex items-center gap-2 self-start rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm font-semibold sm:self-auto">
+              <Users className="h-4 w-4 text-lime-300" />
+              <span>{playersData.length} jogadores</span>
+            </div>
+          </div>
+        </section>
+
+        <div className="relative mb-6 max-w-xl">
+          <Search className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-gray-500" />
           <input
             type="text"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            placeholder="Pesquisar por nome ou nick..."
-            className="bg-transparent w-full text-xs sm:text-sm text-white placeholder-gray-400 outline-none pr-6"
+            placeholder="Buscar por nome ou nickname..."
+            className="w-full rounded-xl border border-white/10 bg-gray-900 py-3 pl-11 pr-10 text-sm text-white outline-none transition placeholder:text-gray-500 focus:border-lime-300/50 focus:ring-2 focus:ring-lime-300/10"
           />
           {searchTerm && (
-            <button
-              type="button"
-              onClick={() => setSearchTerm("")}
-              title="Limpar pesquisa"
-              className="text-gray-400 hover:text-white p-0.5 cursor-pointer shrink-0"
-            >
-              <X className="w-4 h-4" />
+            <button type="button" onClick={() => setSearchTerm("")} title="Limpar busca" className="absolute right-3 top-1/2 -translate-y-1/2 rounded p-1 text-gray-400 hover:text-white">
+              <X className="h-4 w-4" />
             </button>
           )}
         </div>
 
-        <div className="bg-gray-700 flex items-center justify-center rounded-xl px-4 py-2.5 sm:py-2 gap-2 shrink-0 border border-gray-600/60 text-xs sm:text-sm font-semibold">
-          <Users className="w-4 h-4 text-white shrink-0" />
-          <p className="whitespace-nowrap">
-            <span>{playersData.length}</span>/15
-          </p>
-        </div>
+        {filtredPlayers.length === 0 ? (
+          <div className="rounded-2xl border border-white/10 bg-gray-900 p-10 text-center text-sm text-gray-400">
+            Nenhum jogador encontrado para “{searchTerm}”.
+          </div>
+        ) : (
+          <div className="grid w-full grid-cols-1 items-stretch gap-4 xl:grid-cols-2">
+            {filtredPlayers.map((player, index) => <PlayerCard key={`${player.id}-${index}`} playerId={player.id} />)}
+          </div>
+        )}
       </div>
-
-      {/* Lista de jogadores */}
-      {filtredPlayers.length === 0 ? (
-        <div className="bg-gray-700/70 border border-gray-500/40 rounded-xl p-8 text-center text-sm text-gray-300">
-          Nenhum player encontrado para "{searchTerm}".
-        </div>
-      ) : (
-        <div className="grid grid-cols-1 xl:grid-cols-2 gap-4 items-stretch w-full">
-          {filtredPlayers.map((player, index) => (
-            <PlayerCard key={`${player.id}-${index}`} playerId={player.id} />
-          ))}
-        </div>
-      )}
-    </div>
+    </main>
   );
 }
